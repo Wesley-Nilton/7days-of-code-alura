@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-section{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7e018;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+.main-section .container{
+    text-align: center;
+    color: #000;
+    line-height: 50px;
+}
+
+.container .main-title{
+    font-size: 3em;
+}
+
+.container .second-title{
+    border-right: 2px solid #000;
+    font-size: 2.5em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation{
+    animation: blinkCursor 500ms infinite normal, typing 4s steps(40) 1s normal both;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 8em;
+    }
+}
+
+@keyframes blinkCursor{
+    from{
+        border-right-color: #000;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
