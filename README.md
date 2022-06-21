@@ -1,4 +1,4 @@
-# 7 Days Of Code Alura
+# 7 Days Of Code da Alura
 Repóstiorio destinado a todos os desafios realizados durante os 7 Days Of Code da Alura.
 
 ## 👥| Autor(es)
